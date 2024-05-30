@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    /* position: relative; */
+    height: 100vh;
+}
+
+
+
+#card{
+    background-color: hsl(0, 0%, 100%);
+    width: 300px;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+   border-radius: 1.2rem;
+   /* width: 250px;   */
+}
+
+#texts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#texts h3,p{
+    text-align: center;
+    width: 240px;
+}
+
+#texts h3{
+    margin:24px 0;
+    color: hsl(218, 44%, 22%);
+    font-family: 'Outfit',sans-serif ;
+    font-weight: 700;
+    font-size: 1.289rem;
+}
+
+#texts p{
+    /* margin-top: 24px; */
+    text-align: center;
+    font-family: 'Outfit';
+    font-weight: 500;
+    color: hsl(220, 15%, 55%);
+    font-size:0.875rem ;
+}
+
+.attribution { 
+    font-size: 1.2rem; 
+    text-align: center; 
+    font-family: 'Outline',sans-serif;
+    font-weight: 400;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+    text-decoration: none;
+}
+
+@media screen and (max-width: 375px) {
+    body {
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+}
+ 
+#card{
+    background-color: hsl(0, 0%, 100%);
+    width: 300px;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+img{
+    border-radius: 1.2rem;
+ }
+
+ #texts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  } 
+
+  #texts h3,p{
+    text-align: center;
+    width: 240px;
+}  
+
+#texts h3{
+    margin:24px 0;
+    color: hsl(218, 44%, 22%);
+    font-family: 'Outfit',sans-serif ;
+    font-weight: 700;
+    font-size: 1.289rem;
+}
+
+#texts p{
+    /* margin-top: 24px; */
+    text-align: center;
+    font-family: 'Outfit';
+    font-weight: 500;
+    color: hsl(220, 15%, 55%);
+    font-size:0.875rem ;
+}
+
+
+.attribution { 
+    display: flex;
+    font-size: 0.8rem; 
+    text-align: center; 
+    font-family: 'Outline',sans-serif;
+    font-weight: 400;
+
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+    text-decoration: none;
+}
+}
